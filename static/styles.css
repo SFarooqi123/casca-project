@@ -1,0 +1,120 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.upload-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%;
+}
+
+.file-input {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border: 2px dashed #007bff;
+    background-color: #f8f9fa;
+}
+
+.upload-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+
+.tips-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.tips-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips-section li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.result-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.decision-box {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.explanation-box {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.explanation-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.explanation-box li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.upload-again-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.upload-again-btn:hover {
+    background-color: #0056b3;
+}

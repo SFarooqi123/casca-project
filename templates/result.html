@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loan Decision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>Loan Approval Results</h1>
+    </nav>
+
+    <div class="result-container">
+        <h2>Loan Decision</h2>
+        <div class="decision-box">
+            <p class="decision-text">{{ decision }}</p>
+        </div>
+
+        <div class="explanation-box">
+            <h3>Key Influencing Factors:</h3>
+            <ul>
+                {% for reason in explanations %}
+                    <li>{{ reason }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="action-buttons">
+            <a href="/" class="upload-again-btn">Upload Another PDF</a>
+        </div>
+    </div>
+
+</body>
+</html>
